@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/zim-bot/zimbot-v4  /Drips/Zimbotv4
+RUN git clone https://github.com/AlexaMwoL/TOXIC /Kriz/TOXIC
 
-WORKDIR /Drips/Zimbotv4
+WORKDIR /Kriz/TOXIC
 
 ENV TZ=Africa/Harare
 
