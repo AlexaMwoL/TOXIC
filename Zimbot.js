@@ -172,10 +172,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('./TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
 }
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('./TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
 }
 
 const drip =  {
@@ -194,7 +194,7 @@ mediaType: "VIDEO",
 mediaUrl: `https://githb.com/KANNANSIR/TOXIC`,
 description: '🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹',
 previewType: "PHOTO",
-thumbnail: fs.readFileSync('./TOXIC.jpg'),
+thumbnail: fs.readFileSync('TOXIC.jpg'),
 sourceUrl: "",
 detectLinks: false,
     }}
@@ -210,7 +210,7 @@ participant : '0@s.whatsapp.net'
   documentMessage: {
 showAdAttribution: true,
   title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ", 
-  jpegThumbnail: fs.readFileSync('./TOXIC.jpg')
+  jpegThumbnail: fs.readFileSync('TOXIC.jpg')
 }
 }
  }
@@ -226,7 +226,7 @@ showAdAttribution: true,
        "extendedTextMessage": {
                 "text":'𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ',
                 "title": '🌹 𝚃𝙾𝚇𝙸𝙲 🌹 ',
-                'jpegThumbnail': fs.readFileSync('./TOXIC.jpg')
+                'jpegThumbnail': fs.readFileSync('TOXIC.jpg')
              }
            } 
           }
@@ -1177,7 +1177,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃  ANNOUNCEMENT:* *SUBSCRIBE TO 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹*\n\n*YOUTUBE:* https://www.youtube.com/c/PEPE SIR\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃  ANNOUNCEMENT:* *SUBSCRIBE TO 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹*\n\n*YOUTUBE:* https://www.youtube.com/c/PEPE SIR\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`TOXIC.jpg`) ,mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -3310,7 +3310,7 @@ if (!regex1.test(args[0])) throw 'link!'
       body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync('./TOXIC.jpg'),
+      thumbnail: fs.readFileSync('TOXIC.jpg'),
       mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
       sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`,
       }}
@@ -3330,7 +3330,7 @@ if (!regex1.test(args[0])) throw 'link!'
         body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+        thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
         mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
         sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 break
@@ -4289,7 +4289,7 @@ title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx�
 body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
 mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -4314,7 +4314,7 @@ title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx�
 body:"DRIPS",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
 mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -4339,7 +4339,7 @@ title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx�
 body:"DRIPS",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
 mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -4412,7 +4412,7 @@ ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : ba
   body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
   mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -4575,7 +4575,7 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
       body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+      thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
       mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
       sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
      
@@ -5406,7 +5406,7 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
 if (!isCreator) throw mess.owner
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./TOXIC.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('TOXIC.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
@@ -5584,7 +5584,7 @@ ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `PhotoFi
   body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
   mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -5717,7 +5717,7 @@ ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.
   body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
   mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -5760,7 +5760,7 @@ ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , 
   body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
   mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -5789,7 +5789,7 @@ ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*EPHOTO ${command}*` ,  qu
   body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
   mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
 sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
 }
@@ -7932,7 +7932,7 @@ anu = `
       body:"🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`./TOXIC.jpg`) ,
+      thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
       mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
     sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`
     }}}, {quoted:m})
@@ -8015,7 +8015,7 @@ anu = `
         body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync('./TOXIC.jpg'),
+        thumbnail: fs.readFileSync('TOXIC.jpg'),
         mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
         sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`,
         }}
