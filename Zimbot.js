@@ -1,5 +1,5 @@
 // ⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈⧈
-//▮ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ ®️ALL RIGHTS RESERVED
+//▮ZIM BOT INC 2022 ®️ALL RIGHTS RESERVED
 //▮
 //▮FORK AND DON'T FORGET TO GIVE A STAR
 //▮
@@ -8,7 +8,7 @@
 //▮REPORT ABUSE OF THIS SOFTWARE EMAIL US
 //▮reinhardtuna@mail.uk
 //▮WHATSAPP US : +44 7441 437150
-//▮YOUTUBE CHANNELL: https://youtube.com/c/PEPE SIR
+//▮YOUTUBE CHANNELL: https://youtube.com/c/DRIPSOFC
 //▮
 //╰▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 //
@@ -66,7 +66,7 @@ const { isLimit, limitAdd, getLimit, giveLimit, addBalance, kurangBalance, getBa
 //xp and leveling database⧈⧈⧈⧈
 
 //message type
-/* let drips = fs.readFileSync('./Zimbot/TOXIC.jpg') 
+/* let drips = fs.readFileSync('./Zimbot/drips.jpg') 
 */
 
 //database
@@ -172,10 +172,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", thumbnail: fs.readFileSync('TOXIC.jpg'),sourceUrl: ("https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 
 const drip =  {
@@ -188,13 +188,13 @@ participant : '0@s.whatsapp.net'
     isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
  // Bagian ini sesuka kalian berkreasi :'v
 showAdAttribution: true,
-title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
+title: "ZIM BOT V4",
 body: "GIVE IT A STAR",
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/KANNANSIR/TOXIC`,
-description: '🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹',
+mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
+description: 'DRIPS OFC',
 previewType: "PHOTO",
-thumbnail: fs.readFileSync('TOXIC.jpg'),
+thumbnail: fs.readFileSync('./drips.jpg'),
 sourceUrl: "",
 detectLinks: false,
     }}
@@ -209,8 +209,8 @@ participant : '0@s.whatsapp.net'
   message: {
   documentMessage: {
 showAdAttribution: true,
-  title: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ", 
-  jpegThumbnail: fs.readFileSync('TOXIC.jpg')
+  title: "ZIM BOT V4", 
+  jpegThumbnail: fs.readFileSync('./drips.jpg')
 }
 }
  }
@@ -224,9 +224,9 @@ showAdAttribution: true,
                },
     message: { 
        "extendedTextMessage": {
-                "text":'𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ',
-                "title": '🌹 𝚃𝙾𝚇𝙸𝙲 🌹 ',
-                'jpegThumbnail': fs.readFileSync('TOXIC.jpg')
+                "text":'SUB DRIPS OFC',
+                "title": 'ZIM BOT-V4',
+                'jpegThumbnail': fs.readFileSync('./drips.jpg')
              }
            } 
           }
@@ -508,11 +508,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: DADYDR,
-hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
 hydratedButtons:  [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/PEPE SIR"
+      "url": "https://www.youtube.com/c/DRIPSOFC"
     }
 }, {
 quickReplyButton: {
@@ -561,11 +561,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedTemplate: {
   imageMessage: message.imageMessage,
   hydratedContentText: hg,
-  hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+  hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
   hydratedButtons:  [{        
       "urlButton": {
         "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/PEPE SIR"
+        "url": "https://www.youtube.com/c/DRIPSOFC"
       }
   }, {
   quickReplyButton: {
@@ -610,11 +610,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
           hydratedTemplate: {
           imageMessage: message.imageMessage,
           hydratedContentText: hg,
-          hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+          hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
           hydratedButtons:  [{        
               "urlButton": {
                 "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/PEPE SIR"
+                "url": "https://www.youtube.com/c/DRIPSOFC"
               }
           }, {
           quickReplyButton: {
@@ -659,11 +659,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/PEPE SIR"
+                  "url": "https://www.youtube.com/c/DRIPSOFC"
                 }
             }, {
             quickReplyButton: {
@@ -708,11 +708,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/PEPE SIR"
+                  "url": "https://www.youtube.com/c/DRIPSOFC"
                 }
             }, {
             quickReplyButton: {
@@ -762,7 +762,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/PEPE SIR"
+              "url": "https://www.youtube.com/c/DRIPSOFC"
               }
             }, {
               quickReplyButton: {
@@ -813,7 +813,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/PEPE SIR"
+              "url": "https://www.youtube.com/c/DRIPSOFC"
               }
             }, {
               quickReplyButton: {
@@ -855,11 +855,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `,
+            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/PEPE SIR"
+                  "url": "https://www.youtube.com/c/DRIPSOFC"
                 }
             }, {
             quickReplyButton: {
@@ -885,7 +885,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             emoji.get(satu)
             .then(emoji => {
             const buttons = [{buttonId: "y", buttonText: {displayText:satu}, type: 1}]
-            const buttonMessage = {image: {url: emoji.images[dua].url},caption: "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",footerText: 'Loading...',buttons: buttons,headerType: 4}
+            const buttonMessage = {image: {url: emoji.images[dua].url},caption: "ZIM BOT V4",footerText: 'Loading...',buttons: buttons,headerType: 4}
             ZimBotInc.sendMessage(from, buttonMessage, {quoted:m})
             })
             } catch (e) {
@@ -1177,7 +1177,7 @@ setInterval(() => {
 //But5Loc
 var nextMinutes = Math.random() * 300 + 30;
 setTimeout(function(){
-  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃  ANNOUNCEMENT:* *SUBSCRIBE TO 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹*\n\n*YOUTUBE:* https://www.youtube.com/c/PEPE SIR\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`TOXIC.jpg`) ,mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  ZimBotInc.sendMessage(ZimBotInc.user.id, {text: `*ZIM BOT INC ANNOUNCEMENT:* *SUBSCRIBE TO DRIPS OFC*\n\n*YOUTUBE:* https://www.youtube.com/c/DRIPSOFC\n\n*NEW FEATURES COMING SOON SO STAY TUNED*\n\n*FEEL FREE TO BRING IDEAS OF THE FEATURES ON THE TABLE*\n\n*IF YOU WANT TO CONTRUBUTE FORK THE REPO, MAKE CHANGES PUSH YOUR CHANGES TO THE ORIGIN BRANCH AND WAIT FOR YOUR PULL REQUEST TO BE VERIFIED*\n\n*Thanks for choosing zim-bot*`,contextInfo: { externalAdReply:{title:"ZIM BOT V4",body:"SUBSCRIBE DRIPS OFC",showAdAttribution: true,mediaType:2,thumbnail: fs.readFileSync(`./drips.jpg`) ,mediaUrl:`https://youtu.be/KNu-gr2h7bo`, sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
   //anouncement by drips 
 }, nextMinutes * 300 * 1000);
 const send5Butlmg = async (jid , text = '' , footer = '', img, but = [], options = {}) =>{
@@ -1251,7 +1251,7 @@ if (tebaklagu.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaklagu[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'GUESS THE MUSIC' }, type: 1 }], ` Guess The Song\n\nCorrect Answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'GUESS THE MUSIC' }, type: 1 }], ` Guess The Song\n\nCorrect Answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebaklagu[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1269,7 +1269,7 @@ if (tebakgambar.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakgambar[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], ` Guess The Picture\n\nCorrect answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Guess The Picture' }, type: 1 }], ` Guess The Picture\n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebakgambar[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1278,7 +1278,7 @@ if (tebakkata.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakkata[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'GUESS THE WORD' }, type: 1 }], `Guess The Word\n\nCorrect answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'GUESS THE WORD' }, type: 1 }], `Guess The Word\n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebakkata[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1288,7 +1288,7 @@ if (caklontong.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  jawaban = caklontong[m.sender.split('@')[0]]
     deskripsi = caklontong_desk[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'GUESS LONTONG' }, type: 1 }], `Guess Lontong\n\nCorrect answer 🎉\n*${deskripsi}*\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lontong', buttonText: { displayText: 'GUESS LONTONG' }, type: 1 }], `Guess Lontong\n\nCorrect answer 🎉\n*${deskripsi}*\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete caklontong[m.sender.split('@')[0]]
 delete caklontong_desk[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
@@ -1298,7 +1298,7 @@ if (tebakkalimat.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebakkalimat[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], ` Guess The Sentence \n\nCorrect answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kalimat', buttonText: { displayText: 'Guess The Sentence' }, type: 1 }], ` Guess The Sentence \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebakkalimat[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1307,7 +1307,7 @@ if (tebaklirik.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaklirik[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], ` Guess The Lyrics \n\nCorrect answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lirik', buttonText: { displayText: 'Guess The Lyrics' }, type: 1 }], ` Guess The Lyrics \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebaklirik[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1316,7 +1316,7 @@ if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
  kuis = true
  jawaban = tebaktebakan[m.sender.split('@')[0]]
  if (budy.toLowerCase() == jawaban) {
-   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Riddles' }, type: 1 }], `Riddles \n\nCorrect answer 🎉\n\nWant to play again? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+   await ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak tebakan', buttonText: { displayText: 'Riddles' }, type: 1 }], `Riddles \n\nCorrect answer 🎉\n\nWant to play again? ZIM BOT INC`, ZimBotInc.user.name, m)
    delete tebaktebakan[m.sender.split('@')[0]]
  } else reply('*WRONG ANSWER!*')
 }
@@ -1552,7 +1552,7 @@ switch(command) {
     ]
     }
     ]
-    ZimBotInc.sendList(m.chat, `Hi Chomie *${pushname}*`, `Please Select Below`, "CLICK", "ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ  ", sectionnya, { quoted: m})
+    ZimBotInc.sendList(m.chat, `Hi Chomie *${pushname}*`, `Please Select Below`, "CLICK", "ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ ", sectionnya, { quoted: m})
     break
     case 'slime':
     case 'killslime':
@@ -1713,7 +1713,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
         var hg = `「 Memancing 」\n\n ┊ *Capture:* ${ikannya}\n ┊ *Total Get:* ${ditangkap} *Fish*\n ┊ MONEY : $${coin}\n ┊ EXP : ${xp}Xp`
-        ZimBotInc.sendMessage(from, { caption: hg, location: { jpegThumbnail: cing }, templateButtons: button, footer: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `, mentions: [sender] })
+        ZimBotInc.sendMessage(from, { caption: hg, location: { jpegThumbnail: cing }, templateButtons: button, footer: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`, mentions: [sender] })
         .catch ((err) => reply(mess.error))
 }, 6000)
 setTimeout( () => {
@@ -1750,7 +1750,7 @@ var button = [
 		{ quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } }
 		]
         var hg = `「 DEATH 」\n\n *┊ Place*  ${ad}\n ┊ *MONEY :* $${money}\n ┊ *EXP :* ${adven}Xp`
-        ZimBotInc.sendMessage(from, { caption: hg, location: { jpegThumbnail: hasm }, templateButtons: button, footer: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴛᴏxɪᴄ `, mentions: [sender] })
+        ZimBotInc.sendMessage(from, { caption: hg, location: { jpegThumbnail: hasm }, templateButtons: button, footer: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`, mentions: [sender] })
         .catch ((err) => reply(mess.error))
 }, 7000)
 setTimeout( () => {
@@ -2212,7 +2212,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
  case 'sc': case 'script': case 'donate': case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 
   teks = `
-  *TOXIC BOT*\n\n*YOUTUBE:* https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA\n*GITHUB:* https://github.com/KANNANSIR/TOXIC\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
+  *ZIM-BOT-V4*\n\n*YOUTUBE:* https://youtu.be/KNu-gr2h7bo\n*GITHUB:* https://github.com/zim-bot/zimbot-v4/fork\n\n*DONATE:* https://www.paypal.com/paypalme/zimbotinc`
   let buttons = [
   {buttonId: `rpgmenu`, buttonText: {displayText: 'RPG'}, type: 1}
   ]
@@ -2225,12 +2225,12 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   headerType: 4,
   contextInfo:{externalAdReply:{
   title:"DONATE ME",
-  body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", 
+  body: "DRIPS OFC", 
   showAdAttribution: true,
-  thumbnail: fs.readFileSync("Zimbot/TOXIC.jpg"),
+  thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
   mediaType:1,
-  mediaUrl: 'https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA',
-  sourceUrl: "https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuAg"
+  mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
+  sourceUrl: "https://youtu.be/KNu-gr2h7bog"
   }}
   }
   ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -2252,12 +2252,12 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   headerType: 4,
   contextInfo:{externalAdReply:{
   title:"DONATE ME",
-  body: "🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹", 
+  body: "DRIPS OFC", 
   showAdAttribution: true,
-  thumbnail: fs.readFileSync("Zimbot/TOXIC.jpg"),
+  thumbnail: fs.readFileSync("Zimbot/drips.jpg"),
   mediaType:1,
-  mediaUrl: 'https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA',
-  sourceUrl: "https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuAg"
+  mediaUrl: 'https://youtu.be/KNu-gr2h7bo',
+  sourceUrl: "https://youtu.be/KNu-gr2h7bog"
   }}
   }
   ZimBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -2319,7 +2319,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebaklagu.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'TEBAK LAGU' }, type: 1 }], `Time Out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak lagu', buttonText: { displayText: 'TEBAK LAGU' }, type: 1 }], `Time Out\nAnswer:  ${tebaklagu[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
   delete tebaklagu[m.sender.split('@')[0]]
   
   }
@@ -2333,7 +2333,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebakgambar.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Time has run out\Answer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak gambar', buttonText: { displayText: 'Tebak Gambar' }, type: 1 }], `Time has run out\Answer:  ${tebakgambar[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
   delete tebakgambar[m.sender.split('@')[0]]
   
   }
@@ -2347,7 +2347,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
   await sleep(60000)
   if (tebakkata.hasOwnProperty(m.sender.split('@')[0])) {
   console.log("Answer: " + result.jawaban)
-  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Time has run out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `, ZimBotInc.user.name, m)
+  ZimBotInc.sendButtonText(m.chat, [{ buttonId: 'tebak kata', buttonText: { displayText: 'Tebak Kata' }, type: 1 }], `Time has run out\nAnswer:  ${tebakkata[m.sender.split('@')[0]]}\n\nWant to play? ZIM BOT INC`, ZimBotInc.user.name, m)
   delete tebakkata[m.sender.split('@')[0]]
   
   }
@@ -3306,13 +3306,13 @@ if (!regex1.test(args[0])) throw 'link!'
     // 'attachment; filenameq=ZidniGanz.zip'
     reply(`*Please wait, sending repository..*`)
     ZimBotInc.sendMessage(m.chat, { document: { url: url }, fileName: filename+'.zip', mimetype: 'application/zip' , quoted: m,contextInfo: { externalAdReply:{
-      title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-      body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
+      title:"ZIM BOT V4",
+      body:"SUB DRIPS OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync('TOXIC.jpg'),
-      mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-      sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`,
+      thumbnail: fs.readFileSync('./drips.jpg'),
+      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+      sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
       }}
       })
  
@@ -3326,13 +3326,13 @@ if (!regex1.test(args[0])) throw 'link!'
 				const ttrth = trut[Math.floor(Math.random() * trut.length)]
 				truteh = await getBuffer(`https://i.ibb.co/305yt26/bf84f20635dedd5dde31e7e5b6983ae9.jpg`)
 			ZimBotInc.sendMessage(m.chat, {image: truteh, caption: '*Truth*\n\n'+ ttrth, quoted: m,contextInfo: { externalAdReply:{
-        title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-        body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
+        title:"ZIM BOT V4",
+        body:"SUB DRIPS OFC",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-        mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-        sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+        thumbnail: fs.readFileSync(`./drips.jpg`) ,
+        mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+        sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 break
 case 'ghsearch': 
        case 'githubsearch': 
@@ -3374,7 +3374,7 @@ break
   let btn = [{
  urlButton: {
   displayText: 'SUBSCRIBE',
-  url: 'https://youtube.ccom/c/PEPE SIR'
+  url: 'https://youtube.ccom/c/DRIPSOFC'
  }
   }, {
  callButton: {
@@ -3397,7 +3397,7 @@ break
   id: 'sc'
  }
   }]
- fatihgans = fs.readFileSync('./Zimbot/TOXIC.jpg')
+ fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
  let txt = `「 ZimBot Broadcast 」\n\n${text}`
  ZimBotInc.send5ButImg(i, txt, ZimBotInc.user.name, fatihgans, btn)
   }
@@ -3422,7 +3422,7 @@ for (let yoi of anu) {
   id: 'owner'
  }
   }]
- fatihgans = fs.readFileSync('./Zimbot/TOXIC.jpg')
+ fatihgans = fs.readFileSync('./Zimbot/drips.jpg')
  let txt = `「 ZIM BOT BROADCAST 」\n\n${text}`
  ZimBotInc.send5ButImg(yoi, txt, `Broadcast By ${global.pengguna}`, fatihgans, btn)
 }
@@ -3760,7 +3760,7 @@ if (data.medias[0].formattedSize.split('MB')[0] >= 100) return reply('*File Over
 cap = `
 *▊▊▊YOUTUBE SHORTS▊▊▊*
 
-*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+*⬤▶━━━━━━━━━2:30*\n\n\n\n*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}\n*⬤DURATION* ${data.duration}\n*⬤ID:* ${data.medias[0].cached}\n*⬤LINK:* ${data.url}\n\n*ZIM BOT INC*`
 buf = await getBuffer(data.thumbnail)
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${cap}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[0].url }, jpegThumbnail:buf, caption: `*⬤TITLE:* ${data.title}\n*⬤QUALITY:* ${data.medias[0].quality}\n*⬤SIZE:* ${data.medias[0].formattedSize}` }, { quoted: m })  
@@ -3789,13 +3789,13 @@ replay(mess.wait)
  buttons: buttons,
  headerType: 4,
  contextInfo:{externalAdReply:{
- title:`ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ`,
- body:`🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹`,
+ title:`ZIM BOT V4`,
+ body:`DRIPS OFC`,
  showAdAttribution: true,
  thumbnail: global.thumb,
  mediaType:2,
- mediaUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`,
- sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`
+ mediaUrl: `https://youtu.be/KNu-gr2h7bo`,
+ sourceUrl: `https://youtu.be/KNu-gr2h7bo`
  }}
  }
  XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -4181,7 +4181,7 @@ url: `${drips2.videos[0].url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/KANNANSIR/TOXIC`
+url: `https://github.com/zim-bot/zimbot-v4/fork`
 }
 }, {
 quickReplyButton: {
@@ -4243,7 +4243,7 @@ url: `${anu.url}`
 }, {
 urlButton: {
 displayText: `GITHUB`, 
-url: `https://github.com/KANNANSIR/TOXIC`
+url: `https://github.com/zim-bot/zimbot-v4/fork`
 }
 }, {
 quickReplyButton: {
@@ -4281,17 +4281,17 @@ let caption = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {document:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
+title:"ZIM BOT V4",
+body:"SUB DRIPS OFC",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+thumbnail: fs.readFileSync(`./drips.jpg`) ,
+mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 case 'audio': {    
@@ -4306,17 +4306,17 @@ let caption = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵*\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+      🔂   ⏪   ⏸️     ⏩  🎵*\n\n*◉TITLE :* ${media.title}\n*◉FILESIZE :* ${media.filesizeF}\n*◉URL :* ${isUrl(text)}\n*◉EXT :* MP3\n*◉RESOLUTION :* ${args[1] || '128kbps'}\n\n*ZIM BOT INC*`
 buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m }).catch((err) => m.reply('*Sorry, the link you provided is not valid*'))   
 ZimBotInc.sendMessage(m.chat, {audio:{url:media.dl_link}, mimetype:"audio/mpeg", fileName: `${media.title}.mp3`,  quoted: m, contextInfo: { externalAdReply:{
-title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
+title:"ZIM BOT V4",
 body:"DRIPS",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+thumbnail: fs.readFileSync(`./drips.jpg`) ,
+mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 case 'ytmp4': case 'ytvideo': {
@@ -4331,17 +4331,17 @@ var capti = `
     ⟮ _*◉ʏᴏᴜᴛᴜʙᴇ ᴅᴏᴡɴʟᴏᴀᴅ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉Title* : ${media.title}\n*◉FILESIZE* : ${media.filesizeF}\n*◉URL* : ${isUrl(text)}\n*◉EXT* : MP3\n*◉RESOLUTION* : ${args[1] || '360p'}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n*◉Title* : ${media.title}\n*◉FILESIZE* : ${media.filesizeF}\n*◉URL* : ${isUrl(text)}\n*◉EXT* : MP3\n*◉RESOLUTION* : ${args[1] || '360p'}\n\n*ZIM BOT INC*`
 var buf = await getBuffer(media.thumb)
 ZimBotInc.sendMessage(m.chat, { image: { url: media.thumb }, jpegThumbnail:buf, caption: `${capti}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: media.dl_link }, jpegThumbnail:buf, mimetype: 'video/mp4', fileName: `${media.title}.mp4`, caption: `*Downloading From ${text}*` ,  quoted: m,contextInfo: { externalAdReply:{
-title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
+title:"ZIM BOT V4",
 body:"DRIPS",
 showAdAttribution: true,
 mediaType:2,
-thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+thumbnail: fs.readFileSync(`./drips.jpg`) ,
+mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 case 'ytshorts': case 'shorts': {
@@ -4354,7 +4354,7 @@ cap = `
     ⟮ _*◉Yᴏᴜᴛᴜʙᴇ Sʜᴏʀᴛꜱ◉*_ ⟯ 
    
 0.02━◉━━━━━━━━━━━━3.26
-      🔂   ⏪   ⏸️     ⏩  🎵\n\n\n\n*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}\n*◉DURATION* ${data.duration}\n*◉ID:* ${data.medias[0].cached}\n*◉LINK:* ${data.url}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+      🔂   ⏪   ⏸️     ⏩  🎵\n\n\n\n*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}\n*◉DURATION* ${data.duration}\n*◉ID:* ${data.medias[0].cached}\n*◉LINK:* ${data.url}\n\n*ZIM BOT INC*`
 buf = await getBuffer(data.thumbnail)
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${cap}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[0].url }, jpegThumbnail:buf, caption: `*◉TITLE:* ${data.title}\n*◉QUALITY:* ${data.medias[0].quality}\n*◉SIZE:* ${data.medias[0].formattedSize}` }, { quoted: m })  
@@ -4408,13 +4408,13 @@ const result4 = `
 *${botname}*`
 reply(`${result4}`)
 ZimBotInc.sendMessage(m.chat, { document : { url : baby1[0].link}, fileName : baby1[0].nama, mimetype: baby1[0].mime ,  quoted : mudratunha, contextInfo: { externalAdReply:{
-  title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-  body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+  title:"ZIM BOT V4",
+  body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-  mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 case 'song': {
@@ -4560,24 +4560,24 @@ case 'fbdl': case 'fb': case 'facebook': case 'fbvideo': {
 
          txt += `*◉DESCRIPTION :* ${data.description}\n`
 
-         txt += `*◉ID :* 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 \n`
+         txt += `*◉ID :* ZIM BOT INC\n`
 
          txt += `*◉URL :* ${text}\n\n`
 
-         txt += `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`                
+         txt += `*ZIM BOT INC*`                
 
      buf = await getBuffer(data.thumbnail)    
 
      ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, {quoted: mudratunha})
      for (let i of data.result) {  
     ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*◉ Quality :* ${i.quality}` ,  quoted: m,contextInfo: { externalAdReply:{
-      title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-      body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+      title:"ZIM BOT V4",
+      body:"SUBSCRIBE DRIPS OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-      mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-      sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+      thumbnail: fs.readFileSync(`./drips.jpg`) ,
+      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+      sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
      
        
      }
@@ -4638,7 +4638,7 @@ const sendm =  ZimBotInc.sendMessage(
 
    text: `${data.meta.title} *Here is the list of videos, click the button below to choose, here is the list of videos, click the button below to choose*`,
 
-   footer: `©ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ`,
+   footer: `©ZIM BOT INC 2022`,
 
    title: "**▊▊▊SAVEFROM DL▊▊▊**",
 
@@ -4739,12 +4739,12 @@ hydratedFooterText: `${botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/PEPE SIR'
+url: 'https://www.youtube.com/c/DRIPSOFC'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }, {
 quickReplyButton: {
@@ -4781,7 +4781,7 @@ case 'tiktok': case 'tiktoknowm': case 'tiktokwm': case 'tt': case 'ttnowm': cas
       var hadir = randomNomor(300)
        var memek = randomNomor(1000)                      
      let caption = `
-     *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+     *▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*QUALITY* : nowatermark\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKE* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
      buf = await getBuffer(video.author.avatar)                
      ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
      ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4801,7 +4801,7 @@ var hadi = randomNomor(100)
 var hadie = randomNomor(200)     
 var hadir = randomNomor(300)
 var memek = randomNomor(1000)                      
-let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+let caption = `*▊▊▊TIKTOK DL▊▊▊*\n\n*AUTHOR* : DRIPS\n*NICKNAME* : ${video.author.nickname}\n*CAPTION* : ${video.description}\n*COMMENTS* : ${memek}\n*CREATE* ${hadir} Ago\n*LIKES* : ${hadi}\n*DISLIKES* : ${hadie}\n*SOURCE* : ${text}\n\n\n*ZIM BOT INC*`
 buf = await getBuffer(video.author.avatar)                
 ZimBotInc.sendMessage(m.chat, { image: { url: video.author.avatar }, jpegThumbnail:buf, caption: `${caption}` }, { quoted: m })
 ZimBotInc.sendMessage(m.chat, { video: { url: video.video.no_watermark }, jpegThumbnail:buf, mimetype: 'video/mp4', caption: `*Downloading From ${text}*` }, { quoted: m })               
@@ -4838,7 +4838,7 @@ url: `${text}`
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }, {
 quickReplyButton: {
@@ -4913,7 +4913,7 @@ let urlnya = text
  var halo = 0		
 
 
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Jumlah Media :* ${result.medias.length}\n*⬤ Url :* ${text}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
 
 
 for(let i of result.medias) {		
@@ -4973,7 +4973,7 @@ case 'ig2': case 'igdl2': case 'instagram2': {
 anu = await fetchJson(`https://api.akuari.my.id/downloader/igdl?link=${text}`)
 var oi = 1
 for(let i of anu.medias){                
-var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+var txt = `*▊▊▊INSTA DL▊▊▊*\n\n*Username:* ${anu.user.username}\n*Fullname:* ${anu.user.fullName}\n*Followers:* ${anu.user.followers}\n*Type:* ${anu.medias[0].type}\n*Tipe:* ${anu.medias[0].fileType}\n*ID:* ${anu.user.id}\n*Jumlah Media:* ${oi++}\n*Url:* ${text}\n\n*ZIM BOT INC*`
 var buf = await getBuffer(anu.user.profilePicUrl)        
 ZimBotInc.sendMessage(m.chat, { image: { url: anu.user.profilePicUrl }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m }).catch((err) => m.reply('error'))
 ZimBotInc.sendMessage(m.chat, { video: { url: i.url }, jpegThumbnail:buf, caption: `${botname}`}, { quoted: m }).catch((err) => m.reply('error'))
@@ -5010,7 +5010,7 @@ let urlnya = text
 
 var halo = 0		
 
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTAGRAM STORY 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Filetype :* ${result.medias[0].fileType}\n*⬤ Type :* ${result.medias[0].type}\n*⬤ Media :* ${result.medias.length}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
 
 for(let i of result.medias) {
 
@@ -5056,7 +5056,7 @@ let urlnya = text
 bicil.instagramStoryv2(urlnya)
 .then(async(result) => {	  
 var halo = 1		
-ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *` }, { quoted: m })	                                  	                      	            
+ZimBotInc.sendMessage(m.chat, { image: { url: result.user.profilePicUrl }, jpegThumbnail: await getBuffer(result.user.profilePicUrl), caption: `*----「 INSTA DOWNLOADER 」----*\n\n*⬤ Username :* ${result.user.username}\n*⬤ Fullname :* ${result.user.fullName}\n*⬤ Followers :* ${result.user.followers}\n*⬤ Following :* ${result.user.following}\n*⬤ ID :* ${result.user.id}\n*⬤ Jumlah Media :* ${halo++}\n*⬤ Bio :* ${result.user.biography}\n\n*ZIM BOT INC*` }, { quoted: m })	                                  	                      	            
 for(let i of result.results) {		
 if(i.url.includes('mp4')){		           			    				
 let link = await getBuffer(i.sourceUrl)
@@ -5094,7 +5094,7 @@ txt += `*⬤TYPE :* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤DURATION :* ${data.medias.length}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+txt += `*ZIM BOT INC*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })
 for (let i of data.medias) {
@@ -5152,11 +5152,11 @@ txt += `*⬤QUALITY :* ${data.result[0].quality}\n`
 
 txt += `*⬤DESCRIPTION :* ${data.description}\n`
 
-txt += `*⬤ID :* 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 \n`
+txt += `*⬤ID :* ZIM BOT INC\n`
 
 txt += `*⬤URL :* ${text}\n\n`
 
-txt += `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`                
+txt += `*ZIM BOT INC*`                
 
 buf = await getBuffer(data.thumbnail)    
 
@@ -5201,7 +5201,7 @@ txt += `*⬤QUALITY :* ${data.medias[1].quality}\n`
 txt += `*:⬤TYPE* ${data.medias[1].extension}\n`
 txt += `*⬤SIZE :* ${data.medias[1].formattedSize}\n`
 txt += `*⬤URL :* ${data.url}\n\n`
-txt += `*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`
+txt += `*ZIM BOT INC*`
 buf = await getBuffer(data.thumbnail)    
 ZimBotInc.sendMessage(m.chat, { image: { url: data.thumbnail }, jpegThumbnail:buf, caption: `${txt}` }, { quoted: m })              
 ZimBotInc.sendMessage(m.chat, { video: { url: data.medias[1].url }, jpegThumbnail:buf, caption: `*⬤ Quality :* ${data.medias[1].quality}`}, { quoted: m })                
@@ -5361,7 +5361,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5380,7 +5380,7 @@ await sleep(1500)
 let btn = [{
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }]
 let txt = `「 *ZIMBOT BROADCAST* 」\n\n${text}`
@@ -5406,14 +5406,14 @@ case 'bcimage': case 'bcvideo': case 'bcaudio': {
 if (!isCreator) throw mess.owner
 if (!/video/.test(mime) && !/image/.test(mime) && !/audio/.test(mime)) throw `*Send/Reply Video/Audio/Image You Want to Broadcast With Caption* ${prefix + command}`
 let anu = await store.chats.all().map(v => v.id)
-let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('TOXIC.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
+let ftroli ={key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "6289523258649-1604595598@g.us"}, "message": {orderMessage: {itemCount: 2022,status: 200, thumbnail: fs.readFileSync('./drips.jpg'), surface: 200, message: `ZIM-BOT-INC`, orderTitle: 'ZIM-BOT-INC', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
 reply(`*Send Broadcast To* ${anu.length} *Group Chat, Time ${anu.length * 1.5} minutes*`)
 for (let i of anu) {
 await sleep(1500)
 let butoon = [{
 urlButton: {
 displayText: `GITHUB`,
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 },
 {
@@ -5531,7 +5531,7 @@ break
 
 //----END HERE------\\
 
-//CREATED BY 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 
+//CREATED BY ZIM BOT INC
 
 //----PHOT FILTER-----\\
 break
@@ -5580,18 +5580,18 @@ let media = await ZimBotInc.downloadAndSaveMediaMessage(quoted)
 let anu = await TelegraPh(media)
 let buf = await getBuffer(`https://violetics.pw/api/photofilter/${command}?apikey=beta&image=${anu}`)
 ZimBotInc.sendMessage(m.chat, { image: buf, jpegThumbnail:buf, caption: `PhotoFilter ${command}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-  body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+  title:"ZIM BOT V4",
+  body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-  mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
  
 //----END HERE-------\\
 
-//CREATED BY 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 
+//CREATED BY ZIM BOT INC
 
 //----TEXTPRO--------\\
 case 'candy':
@@ -5713,13 +5713,13 @@ if (/1917/.test(command)) link = 'https://textpro.me/1917-style-text-effect-onli
 if (/leaves/.test(command)) link = 'https://textpro.me/natural-leaves-text-effect-931.html'
 let anu = await maker.textpro(link, q)
 ZimBotInc.sendMessage(m.chat, { image: { url: anu }, caption: `Made by ${global.botname}` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-  body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+  title:"ZIM BOT V4",
+  body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-  mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 //----END HERE--------\\
 
@@ -5756,13 +5756,13 @@ case 'underwaterocean': {
 if (!text) throw `Example : ${prefix + command} text`
 anu = await getBuffer(`https://violetics.pw/api/photooxy/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*PHOTO OXY ${command}*` , quoted: m, contextInfo: { externalAdReply:{
-  title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-  body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+  title:"ZIM BOT V4",
+  body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-  mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 
@@ -5785,13 +5785,13 @@ case 'summerysand': {
 if (!text) throw `Example : ${prefix + command} nama anime`
 anu = await getBuffer(`https://violetics.pw/api/ephoto360/${command}?apikey=beta&text=${text}`)
 ZimBotInc.sendMessage(m.chat, { image: anu, caption: `*EPHOTO ${command}*` ,  quoted: m, contextInfo: { externalAdReply:{
-  title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-  body:"SUBSCRIBE 🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+  title:"ZIM BOT V4",
+  body:"SUBSCRIBE DRIPS OFC",
   showAdAttribution: true,
   mediaType:2,
-  thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-  mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA` }}}, {quoted: m})
+  thumbnail: fs.readFileSync(`./drips.jpg`) ,
+  mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+sourceUrl: `https://youtu.be/KNu-gr2h7bo` }}}, {quoted: m})
 }
 break
 
@@ -6119,7 +6119,7 @@ case 'igsearch':
       m.chat, 
       {
        text: `${ucapannya2} ${pushname} *Search Results From ${text} Click the button below to choose*`,
-       footer: `© 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `,
+       footer: `© ZIM BOT INC`,
        title: "*▊▊▊APK DOWNLOAD▊▊▊*",
        buttonText: "CLICK HERE",
        sections
@@ -6137,7 +6137,7 @@ case 'igsearch':
                          dhupi.rexdldown(`${text}`).then(async (anu) => {        
                          if (anu[0].size.split('MB')[0] >= 150) return reply('*File Over Limit* '+util.format(anu))
                          for (let i of anu) {    
-                         linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 *`         
+                         linkye = `*▊▊▊APK DOWNLOAD▊▊▊*\n\n*TITLE:* ${i.title}\n*UPDATE:* ${i.up}\n*VERSION:* ${i.vers}\n*FILESIZE:* ${i.size}\n*URL:* \n*DESCRIPTION:* ${i.desc}\n\n*ZIM BOT INC*`         
                               ZimBotInc.sendMessage(m.chat, { image: await getBuffer(i.thumb), jpegThumbnail: await getBuffer(i.thumb), caption: `${linkye}` }, { quoted: m })
                               ZimBotInc.sendMessage(m.chat, {document: await getBuffer(i.link), mimetype: `application/vnd.android.package-archive`, fileName: `${i.title}`}, {quoted:m})  
                               }  
@@ -6463,7 +6463,7 @@ let { quotesAnime } = require('./lib/scraper')
    ]
    let buttonMessage = {
   text: `~_${result.quotes}_\n\nBy '${result.karakter}', ${result.anime}\n\n- ${result.up_at}`,
-  footer: '𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 ',
+  footer: 'ZIM BOT INC',
   buttons: buttons,
   headerType: 2
    }
@@ -6786,7 +6786,7 @@ case 'sendkontak': case 'sendcontact': {
   let buttons = [
 { buttonId: 'stop', buttonText: { displayText: 'STOP' }, type: 1 }
   ]
-  await ZimBotInc.sendButtonText(m.chat, buttons, `_You Are Still In Anonymous Session, 𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃  To Terminate Your Anonymous Session_`, ZimBotInc.user.name, m)
+  await ZimBotInc.sendButtonText(m.chat, buttons, `_You Are Still In Anonymous Session, ZIM BOT INC To Terminate Your Anonymous Session_`, ZimBotInc.user.name, m)
   throw false
    }
    let room = Object.values(this.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -6868,7 +6868,7 @@ other: function (who = '') {
  case 'public': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = true
-   reply('*ᴛᴏxɪᴄ ɴᴏᴡ ᴡᴏʀᴋɪɴɢ ᴀꜱ ᴩᴜʙʟɪᴄ*')
+   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝘂𝗯𝗹𝗶𝗰')
  }// https://hardianto.xyz/api/rip?image=https://i.imgur.com/rANDwCP.jpeg&apikey=hardianto
  break
  case 'attp': {
@@ -6889,7 +6889,7 @@ other: function (who = '') {
  case 'self': {
    if (!isCreator) throw global.owner
    ZimBotInc.public = false
-   reply('*ᴛᴏxɪᴄ ɴᴏᴡ ᴡᴏʀᴋɪɴɢ ᴀꜱ ᴩʀɪᴠᴀᴛᴇ*')
+   reply('𝗭𝗶𝗺 𝗯𝗼𝘁 𝗻𝗼𝘄 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 𝗮𝘀 𝗽𝗿𝗶𝘃𝗮𝘁𝗲')
  }
  break
  case 'ping': case 'botstatus': case 'statusbot': {
@@ -7011,12 +7011,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{
 urlButton: {
 displayText: 'SUBSCRIBE',
-url: 'https://www.youtube.com/c/PEPE SIR'
+url: 'https://www.youtube.com/c/DRIPSOFC'
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }, {
 quickReplyButton: {
@@ -7071,7 +7071,7 @@ case 'listmenu':
   m.chat, 
   {
   text: `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 ┌───〔 *_◉ᴜsᴇʀ ɪɴғᴏ◉_* 〕
@@ -7091,7 +7091,7 @@ case 'listmenu':
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-  footer: `𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `,
+  footer: `ZIM BOT INC`,
   title: `*LIST MENU*`,
   jpegThumbnail: buffer,
   buttonText: "CLICK HERE",
@@ -7187,10 +7187,10 @@ case 'setmenu': {
  └───────────●
         `,
          buttonText: "SET MENU",
-         footerText: "𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃  4",
+         footerText: "ZIM BOT INC 4",
          listType: "SINGLE_SELECT",
          sections: [{
-       "title": "𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 ",
+       "title": "ZIM BOT INC",
        "rows": [
        {
        "title": "TEMPLATE ZIM-BOT",
@@ -7200,7 +7200,7 @@ case 'setmenu': {
        ]
        },
        {
-       "title": "ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
+       "title": "ZIM BOT V4",
        "rows": [
        {
        "title": "TEMPLATE IMAGE",
@@ -7649,7 +7649,7 @@ anu = `
 └───〔 *_ᴢɪᴍ ʙᴏᴛ ɪɴᴄ_* 〕
 
 ┌───〔*_◉ᴇᴘʜᴏᴛᴏ-ᴍᴇɴᴜ◉_*〕
-┊??3d-wood
+┊🪨3d-wood
 ┊🪨angels-wings
 ┊🪨snake-text
 ┊🪨redhot-metal2
@@ -7753,12 +7753,12 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/PEPE SIR'
+            url: 'https://www.youtube.com/c/DRIPSOFC'
         }
     }, {
         urlButton: {
             displayText: 'GITHUB',
-            url: 'https://github.com/KANNANSIR/TOXIC'
+            url: 'https://github.com/zim-bot/zimbot-v4/fork'
         }
     }, {
         quickReplyButton: {
@@ -7788,12 +7788,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/PEPE SIR'
+    url: 'https://www.youtube.com/c/DRIPSOFC'
     }
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/KANNANSIR/TOXIC'
+    url: 'https://github.com/zim-bot/zimbot-v4/fork'
     }
     }, {
     quickReplyButton: {
@@ -7826,12 +7826,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/PEPE SIR'
+    url: 'https://www.youtube.com/c/DRIPSOFC'
     }
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/KANNANSIR/TOXIC'
+    url: 'https://github.com/zim-bot/zimbot-v4/fork'
     }
     }, {
     quickReplyButton: {
@@ -7864,12 +7864,12 @@ anu = `
     hydratedButtons: [{
     urlButton: {
     displayText: 'SUBSCRIBE',
-    url: 'https://www.youtube.com/c/PEPE SIR'
+    url: 'https://www.youtube.com/c/DRIPSOFC'
     }
     }, {
     urlButton: {
     displayText: 'GITHUB',
-    url: 'https://github.com/KANNANSIR/TOXIC'
+    url: 'https://github.com/zim-bot/zimbot-v4/fork'
     }
     }, {
     quickReplyButton: {
@@ -7899,7 +7899,7 @@ anu = `
         }
         
     var buffer = await getBuffer(ppuser)
-    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/PEPE SIR` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/KANNANSIR/TOXIC` } },
+    const buttonsDefault = [{ urlButton: { displayText: `SUBSCRIBE`, url : `https://www.youtube.com/c/DRIPSOFC` } }, { urlButton: { displayText: `GITHUB`, url : `https://github.com/zim-bot/zimbot-v4/fork` } },
     {					
       quickReplyButton: {
       displayText: 'SPEED',
@@ -7925,16 +7925,16 @@ anu = `
     fileName: `ZIMBOT-V4`,
     fileLength: 99999999999999,
     templateButtons: buttonsDefault,
-    footer: `©ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ`,
+    footer: `©ZIM BOT INC 2022`,
     headerType: 4,
     contextInfo: { externalAdReply:{
-      title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-      body:"🌹ᴋʀɪᴢ ꜱᴇʀ && ᴩᴇᴩᴇ ꜱɪʀ ᴏꜰᴄ🌹",
+      title:"ZIM BOT V4",
+      body:"DRIPS OFC",
       showAdAttribution: true,
       mediaType:2,
-      thumbnail: fs.readFileSync(`TOXIC.jpg`) ,
-      mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-    sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`
+      thumbnail: fs.readFileSync(`./drips.jpg`) ,
+      mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+    sourceUrl: `https://youtu.be/KNu-gr2h7bo`
     }}}, {quoted:m})
     } else if  (setbot.templateMsg) {
       ZimBotInc.send5ButMsg(m.chat, anu, global.botname, btn)
@@ -7962,7 +7962,7 @@ anu = `
     m.chat, 
     {
     text: `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 ┌───〔 *_◉ᴜsᴇʀ ɪɴғᴏ◉_* 〕
@@ -7982,7 +7982,7 @@ anu = `
 ┊ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${Object.keys(global.db.users).length}
 └───────────●
 `,
-    footer: `𝚃𝙾𝚇𝙸𝙲 𝙱𝙾𝚃 `,
+    footer: `ZIM BOT INC`,
     title: `*LIST MENU*`,
     jpegThumbnail: buffer,
     buttonText: "CLICK HERE",
@@ -8007,17 +8007,17 @@ anu = `
         fileName: `MENU V4`,
         fileLength: 99999999999999,
         caption: anu,
-        footer: `©ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ`,
+        footer: `©ZIM BOT INC 2022`,
         buttons: buttons,
         headerType: 4,
         contextInfo: { externalAdReply:{
-        title:"ɪ⃪ᷜᴛ⃪ᷢꜱᷝ͢ ⃪ᴍ⃪ᷦᴇ⃪᷏᷍ ⃪ᴛ⃪ᷮᴏ⃪ͤx⃪ᷮɪ⃪ͤᴄ",
-        body:"𝚂𝚄𝙱 𝙿𝙴𝙿𝙴 𝚂𝙸𝚁 ",
+        title:"ZIM BOT V4",
+        body:"SUB DRIPS OFC",
         showAdAttribution: true,
         mediaType:2,
-        thumbnail: fs.readFileSync('TOXIC.jpg'),
-        mediaUrl:`https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`, 
-        sourceUrl: `https://youtube.com/channel/UCVJ9029PQ-gJBtFQZZ3AJuA`,
+        thumbnail: fs.readFileSync('./drips.jpg'),
+        mediaUrl:`https://youtu.be/KNu-gr2h7bo`, 
+        sourceUrl: `https://youtu.be/KNu-gr2h7bo`,
         }}
         }
         ZimBotInc.sendMessage(m.chat, buttonMessage)
@@ -8029,7 +8029,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'OWNER MENU')
 ram3 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu = `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8077,12 +8077,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8097,7 +8097,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'DATABASE MENU')
 ram4 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu = `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8129,12 +8129,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8149,7 +8149,7 @@ case 'photooxymenu': {
   buffer = await getBuffer(picak+'PHOTOOXY MENU')
   ram5 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   anu = `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8199,12 +8199,12 @@ case 'photooxymenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8219,7 +8219,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'GROUP MENU')
 ram0 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu = `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8286,12 +8286,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8306,7 +8306,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'TEXTPRO MENU')
 ram11 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu = `
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8387,12 +8387,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8407,7 +8407,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'DOWNLOAD MENU')
 ram22 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8479,12 +8479,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8499,7 +8499,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'PHOTOFILTER MENU')
 ram30 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8563,12 +8563,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
@@ -8583,7 +8583,7 @@ case 'nsfwmenu':{
   buffer = await getBuffer(picak+'NSFW MENU')
   ram35 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8629,12 +8629,12 @@ case 'nsfwmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8649,7 +8649,7 @@ case 'animemenu':{
   ram40 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   buffer = await getBuffer(picak+'ANIME MENU')
   anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8716,12 +8716,12 @@ case 'animemenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8736,7 +8736,7 @@ case 'convertmenu': {
   ram70 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   buffer = await getBuffer(picak+'CONVERT MENU')
   anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8781,12 +8781,12 @@ case 'convertmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8801,7 +8801,7 @@ case 'toolmenu': {
   buffer = await getBuffer(picak+'TOOL MENU')
   ram90 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8842,12 +8842,12 @@ case 'toolmenu': {
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8862,7 +8862,7 @@ case 'searchmenu':{
   buffer = await getBuffer(picak+'SEARCH MENU')
   ram200 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
   anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8915,12 +8915,12 @@ case 'searchmenu':{
   hydratedButtons: [{        
   "urlButton": {
   "displayText": "SUBSCRIBE",
-  "url": "https://www.youtube.com/c/PEPE SIR"
+  "url": "https://www.youtube.com/c/DRIPSOFC"
   }
   }, {
   urlButton: {
   displayText: 'GITHUB',
-  url: 'https://github.com/KANNANSIR/TOXIC'
+  url: 'https://github.com/zim-bot/zimbot-v4/fork'
   }
   }
   ]
@@ -8935,7 +8935,7 @@ ZimBotInc.sendMessage(m.chat, { react: { text: `${global.reactmoji}`, key: m.key
 buffer = await getBuffer(picak+'EPHOTO MENU')
 ram250 = `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB`
 anu =`
-┌───〔 *_🌹ᴛᴏxɪᴄ🌹_* 〕
+┌───〔 *_ᴢɪᴍ ʙᴏᴛ ᴠ4_* 〕
 ┊ᴡᴇʟᴄᴏᴍᴇ
 └───────────●
 
@@ -8972,12 +8972,12 @@ hydratedFooterText: `${global.botname}`,
 hydratedButtons: [{        
 "urlButton": {
 "displayText": "SUBSCRIBE",
-"url": "https://www.youtube.com/c/PEPE SIR"
+"url": "https://www.youtube.com/c/DRIPSOFC"
 }
 }, {
 urlButton: {
 displayText: 'GITHUB',
-url: 'https://github.com/KANNANSIR/TOXIC'
+url: 'https://github.com/zim-bot/zimbot-v4/fork'
 }
 }
 ]
