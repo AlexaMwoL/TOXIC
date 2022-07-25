@@ -3568,7 +3568,7 @@ let { webp2mp4File } = require('./lib/uploader')
     } catch {
         return await reply("_Error ;)_");
     }
-    await ZimBotInc.sendMessage(msg.key.remoteJid, { audio: buffer, mimetype: 'audio/mp4', duration: 359996400, ptt: false, contextInfo: { forwardingScore: 9999, externalAdReply: { title: TOXIC: kriz × pepe, previewType: "PHOTO", thumbnail:fs.readFileSync(`TOXIC.jpg`) , sourceUrl: ig.me/_toxic_kriz_ } }, sendEphemeral: true }, { quoted: m });
+    await ZimBotInc.sendMessage(msg.key.remoteJid, { audio: buffer, mimetype: 'audio/mp4', duration: 359996400, ptt: false, contextInfo: { forwardingScore: 9999, externalAdReply: { title: TOXIC , kriz × pepe , previewType: "PHOTO", thumbnail:fs.readFileSync(`TOXIC.jpg`) , sourceUrl: ig.me/_toxic_kriz_ } }, sendEphemeral: true }, { quoted: m });
   break
  case 'toaud': case 'toaudio': {
  if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want Audio With Caption ${prefix + command}`
