@@ -3547,25 +3547,28 @@ let { webp2mp4File } = require('./lib/uploader')
    await fs.unlinkSync(media)
  }
  break
- case 'tts':
-  const gtts = require('./Zimbot/gtts')(args[0])
-  if (args.length < 1) return ZimBotInc.sendMessage(from, `ᴇxᴀᴍᴘʟᴇ: ${prefix}ᴇɴ ʜᴇʟʟᴏ`, text, {quoted: m})
-  if (args.length < 2) return ZimBotInc.sendMessage(from, `ᴇxᴀᴍᴘʟᴇ: ${prefix}ᴇɴ ʜᴇʟʟᴏ`, text, {quoted: m})
- var dtt = body.slice(20)
-  reply(mess.wait)
-  var ranm = getRandom('.mp3')
-		var	rano = getRandom('.ogg')
-				dtt.length > 300
-         gtts.save(ranm, dtt, function() {
-          exec(`ffmpeg -i ${ranm} -ar 48000 -vn -c:a libopus ${rano}`, (err) => {
-          fs.unlinkSync(ranm)
-          buffer = fs.readFileSync(rano)
-          if (err) return reply('error')
-          Ruri.sendMessage(from,  audio, {quoted: freply, ptt:true})
-          ZimBotInc.sendMessage(m.chat, { audio: buffer, mimetype: 'audio/mp4', ptt: true, quoted: mudratunha})
-          fs.unlinkSync(rano)
-          })
-          })
+  case 'tts':
+  if (!quoted)
+        return await reply(`_Example : ${prefix}tts {ml} hello_`);
+    let
+        LANG = 'en', ttsMessage = quoted, SPEED = 1.0;
+    if (langMatch = quoted.match("\\{([a-z]{2})\\}")) {
+        LANG = langMatch[1];
+        ttsMessage = ttsMessage.replace(langMatch[0], "");
+    }
+    if (speedMatch = quoted.match("\\{([0].[0-9]+)\\}")) {
+        SPEED = parseFloat(speedMatch[1]);
+        ttsMessage = ttsMessage.replace(speedMatch[0], "");
+    }
+    try {
+        var buffer = await googleTTS.synthesize({
+            text: quoted,
+            voice: LANG
+        });
+    } catch {
+        return await reply("_Error ;)_");
+    }
+    await ZimBotInc.sendMessage(msg.key.remoteJid, { audio: buffer, mimetype: 'audio/mp4', duration: 359996400, ptt: false, contextInfo: { forwardingScore: 9999, externalAdReply: { title: TOXIC: kriz × pepe, previewType: "PHOTO", thumbnail:fs.readFileSync(`TOXIC.jpg`) , sourceUrl: ig.me/_toxic_kriz_ } }, sendEphemeral: true }, { quoted: m });
   break
  case 'toaud': case 'toaudio': {
  if (!/video/.test(mime) && !/audio/.test(mime)) throw `Send/Reply Video/Audio You Want Audio With Caption ${prefix + command}`
