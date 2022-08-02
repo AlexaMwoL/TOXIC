@@ -132,6 +132,12 @@ const antiToxic = m.isGroup ? dripsanti.includes(from) : false
 const zimbotincv3 = body.slice(0).trim().split(/ +/).shift().toLowerCase()
 //-----END HERE------\\
 
+
+let link = http://Wa.me/919633687665
+
+
+
+
 //rest apis
 global.APIs = { 
     bx: 'https://bx-hunter.herokuapp.com',
@@ -7756,7 +7762,7 @@ anu = `
     let btn = [{
         urlButton: {
             displayText: 'SUBSCRIBE',
-            url: 'https://www.youtube.com/c/PEPE SIR'
+            url: `https://www.whatsapp.com/otp/copy/${link}`
         }
     }, {
         urlButton: {
