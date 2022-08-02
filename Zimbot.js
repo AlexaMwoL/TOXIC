@@ -45,6 +45,7 @@ const { performance } = require('perf_hooks')
 const { Primbon } = require('scrape-primbon')
 const Config = require('./drips');
 const simpleGit = require('simple-git');
+const chat = m.chat
 const git = simpleGit();
 const Heroku = require('heroku-client');
 const { PassThrough } = require('stream');
