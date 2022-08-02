@@ -133,9 +133,7 @@ const zimbotincv3 = body.slice(0).trim().split(/ +/).shift().toLowerCase()
 //-----END HERE------\\
 
 
-let link = http://Wa.me/919633687665
-
-
+let link = https://chat.whatsapp.com/Is8xpAxp6852pmgRdC2qmy
 
 
 //rest apis
